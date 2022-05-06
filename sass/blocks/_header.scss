@@ -12,9 +12,8 @@
     height: 85px;
   }  
 
-  @media (max-width:767px) {
-
-    &__fixed {    
+  &__fixed {  
+    @media (max-width:767px) {  
       position: fixed;
       left: 0;
       top: 15px;

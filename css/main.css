@@ -70,13 +70,11 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     height: 85px; }
   @media (max-width: 767px) {
-    .header {
-      top: 15px; }
-      .header__fixed {
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0; } }
+    .header__fixed {
+      position: fixed;
+      left: 0;
+      top: 15px;
+      right: 0; } }
 
 .menu__link {
   color: #4d4959;
