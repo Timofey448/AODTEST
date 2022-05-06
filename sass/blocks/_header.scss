@@ -13,12 +13,11 @@
   }  
 
   @media (max-width:767px) {
-    top: 15px;
 
     &__fixed {    
       position: fixed;
       left: 0;
-      top: 0;
+      top: 15px;
       right: 0;
     }
   }
