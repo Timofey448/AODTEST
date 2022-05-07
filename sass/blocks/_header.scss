@@ -11,9 +11,8 @@
     align-items: center;
     height: 85px;
   }  
-
-  &__fixed {  
-    @media (max-width:767px) {  
+  @media (max-width:767px) {
+    &__fixed {
       position: fixed;
       left: 0;
       top: 15px;
